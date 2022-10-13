@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Taller 4</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    <main class="conteiner-Menu">
+        <div class="preguntas">
+            <div class="menu">
+                <div class="conteiner-preguntas">
+                    <h1>Tranforme la hora actual en segundos</h1>  
+                    <button onclick="segundos()" >ejecutar</button>
+                    <div id="respuesta"> 
+                        <p class="resultados" id="resultado"></p>
+                    </div>
+                </div>
+
+                <div class="conteiner-preguntas">
+                    <h1>Calcular el área de un triángulo, que es igual a: (base * altura)/2. </h1> 
+                    <div>
+                        <input type="number" id="base" placeholder="Base">
+                        <input type="number" id="altura" placeholder="Altura"> 
+                        <button  onclick="Area()" >ejecutar</button>
+                    </div>
+                    <div id="respuesta"> 
+                        <p class="resultados" id="resultado1"></p>
+                    </div>
+                </div>
+
+                <div class="conteiner-preguntas">
+                    <h1>Calcule la raiz cuadrada de un numero impar y muestre el resultado con tres digitos.</h1> 
+                    <div>
+                        <input id="raiz1" type="number">
+                        <button onclick="RaizCuadrada()">ejecutar</button>
+                    </div>
+                    <div id="respuesta"> 
+                        <p class="resultados" id="resultado2"></p>
+                    </div>
+                </div>
+
+                <div class="conteiner-preguntas">
+                    <h1> Ingresar una cadena de texto y mortrar la longitud de la cadena.</h1> 
+                    <div>
+                        <input id="cadenaTexto" type="text">
+                        <button onclick="Cadena_de_Texto()">ejecutar</button>
+                    </div>
+                    <div id="respuesta"> 
+                        <p class="resultados" id="resultado3"></p>
+                    </div>
+                </div>
+                <div class="conteiner-preguntas">
+                    <h1>Concatenar los arrays: Array1(lunes,martes,miercoles,viernes) y array2(Sabado,Domingo)</h1> 
+                    <div>
+                        <button onclick="Concatenar()">ejecutar</button>
+                    </div>
+                    <div id="respuesta"> 
+                        <p class="resultados" id="resultado4"></p>
+                    </div>
+                </div>
+
+                <div class="conteiner-preguntas">
+                    <h1>Mostrar la version del navegador.</h1> 
+                    <div>
+                        <button  onclick="VersionNav()" href="#">ejecutar</button> 
+                    </div>
+                </div>
+
+                <div class="conteiner-preguntas">
+                    <h1>Mostrar el ancho y la altura de la pantalla</h1> 
+                    <button onclick="mostrar_pantalla()">ejecutar</button>
+                    <div id="respuesta"> 
+                        <p class="resultados" id="resultado6"></p>
+                    </div>
+                </div>
+
+                <div class="conteiner-preguntas">
+                    <h1>Imprimir la pagina</h1> 
+                    <button onclick=javascript:window.print()>Imprimir</button>
+                </div>
+            </div>
+            </div>
+        </div>             
+    </div>
+    </main>  
+</body>
+</html>
